@@ -1,0 +1,49 @@
+Project Compressor-Decompressor
+
+1. Introduction
+The Compressor-Decompressor GUI project is a Java-based graphical user interface application that allows users to compress and decompress files using GZIP compression. The application provides a simple and intuitive interface for selecting files and performing compression and decompression operations.
+
+2. Objectives
+Develop a user-friendly GUI for file compression and decompression.
+Implement GZIP compression and decompression functionality.
+Provide a seamless user experience for selecting files to compress or decompress.
+3. Features
+3.1 File Compression
+Users can select a file for compression using the "Select file to compress" button.
+GZIP compression is applied to the selected file.
+The compressed file is saved in the same directory with a ".gz" extension.
+3.2 File Decompression
+Users can select a GZIP compressed file for decompression using the "Select file to Decompress" button.
+GZIP decompression is applied to the selected file.
+The decompressed file is saved in the same directory.
+4. System Architecture
+The system is divided into two main components:
+
+GUI (Graphical User Interface): Implemented using Java's Swing framework, it provides the user interface for file selection and interaction.
+
+Compression and Decompression Logic: Implemented in separate classes (compressor and decompressor) to encapsulate the compression and decompression functionalities.
+
+5. Installation Guide
+Requirements:
+
+Java Runtime Environment (JRE)
+Operating System: Cross-platform (Windows, Linux, macOS)
+Installation Steps:
+
+No installation required; the application runs as a standalone Java application.
+6. Usage Guide
+Launching the Application:
+
+Run the main class to launch the application.
+File Compression:
+
+Click on the "Select file to compress" button.
+Choose the file you want to compress.
+The compressed file will be saved in the same directory with a ".gz" extension.
+File Decompression:
+
+Click on the "Select file to Decompress" button.
+Choose the GZIP compressed file you want to decompress.
+The decompressed file will be saved in the same directory.
+7. Conclusion
+The Compressor-Decompressor GUI project provides a convenient solution for users to compress and decompress files using GZIP compression. The intuitive graphical user interface simplifies the process, making it accessible to users of all levels of technical expertise.
